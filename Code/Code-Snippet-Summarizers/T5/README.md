@@ -19,7 +19,8 @@
 ### STEP-2
 * ##### Setup a Google Cloud Storage (GCS) Bucket
     To setup a new GCS Bucket for training and fine-tuning a T5 Model, please follow the original guide provided by Google: Here the link: https://cloud.google.com/storage/docs/quickstart-console
-
+    
+   *NB: You need GCS to store the datasets and the model's checkpoints. Once you have created your GCS bucket, make sure to load the dataset for training and evaluating the model, then change the paths accordingly in the provided jupyter notebook*
 
 ### STEP-3
 * Follow the workflow in the provided Jupyter notebook.
